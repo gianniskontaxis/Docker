@@ -1,6 +1,6 @@
 import express from 'express';
 
-import connectToDatabase from './helpers.mjs'
+import connectToDatabase from './Docker/Helpers.mjs/index.js'
 
 const app = express();
 
